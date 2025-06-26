@@ -99,10 +99,10 @@ ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
 for i in range(5):
     plt.text(11.2, df_UK_plot.iloc[-1, i], df_UK_plot.columns[i])
 ```
-![Trending Top Skills for Data Analyst in UK](3_project/images/skill_trend_uk.png)
+![Trending Top Skills for Data Analyst in UK](3_Project/images/skill_trend_uk.png)
 
 ### Visualize the data for US(same code format as UK)
-![Trending Top Skills for Data Analyst in US](3_project/images/skill_trend_us.png)
+![Trending Top Skills for Data Analyst in US](3_Project/images/skill_trend_us.png)
 
 ### Insights:
 - SQL remains the most consistently demanded skill throughout the year although it showed a gradual decrease in demand.
@@ -128,7 +128,7 @@ plt.gca().xaxis.set_major_formatter(tick_x)
 ![Salary Distribution of Data Jobs in the UK](3_Project/images/Salary_boxplot_uk.png)
 
 ### Visualize Data for US(same code format as UK)
-![Salary Distribution of Data Jobs in the US](3_project/images/salary_boxplot_us.png)
+![Salary Distribution of Data Jobs in the US](3_Project/images/salary_boxplot_us.png)
 
 ### Insight
 - There is a significant variation in salary ranges across different job titles. Senior Data Scientist position tend to have the highest salary Potential with upto $600k, indicating the high value placed on advanced data skills and experience in the the industry
@@ -163,12 +163,12 @@ ax[1].set_xlim(ax[0].get_xlim())
 fig.tight_layout()
 ```
 Here's the breakdown of the Highest paid and Most In Demand Skills for data analyst in UK
-![Highest Paid Vs Most Demanded Skills](3_project/images/Demand%20vs%20Salary%20UK.png)
+![Highest Paid Vs Most Demanded Skills](3_Project/images/Demand%20vs%20Salary%20UK.png)
 
 #### Visualize Data for Uk (same code format as UK)
 
 Here's the breakdown of the Highest paid and Most In Demand Skills for data analyst in US
-![Highest Paid vs Most Demanded Skill](3_project/images/Demand%20vs%20Salary%20US.png)
+![Highest Paid vs Most Demanded Skill](3_Project/images/Demand%20vs%20Salary%20US.png)
 
 ### Insights
 - The top graph shows specialized technical skill which are associated with higher salaries, some reaching up to $200k, suggesting that advanced technical proficiency can increase earning potential.
@@ -209,11 +209,11 @@ plt.title('Most Optimal Skill for Data Analyst in UK')
 
 plt.show()
 ```
-![Most Optimal Skills for Data Analysts in UK](3_project/images/Data_analyst_optimal_skill_UK.png)
+![Most Optimal Skills for Data Analysts in UK](3_Project/images/Data_analyst_optimal_skill_UK.png)
 *A scatter plot visualizing the most optimal skills (high paying and high demand) for data analyst in the UK*
 
 #### Visualize Data for US(same code format as UK)
-![Most Optimal Skills for Data Analysts in UK](3_project/images/Data_analyst_optimal_skill_US.png)
+![Most Optimal Skills for Data Analysts in UK](3_Project/images/Data_analyst_optimal_skill_US.png)
 *A scatter plot visualizing the most optimal skills (high paying and high demand) for data analyst in the US*
 
 #### Insights:
